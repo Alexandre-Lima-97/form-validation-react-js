@@ -7,8 +7,9 @@ function App() {
   return (
     <>
     <Form />
-    <ToastContainer autoClose={3000} className="toast-container"/>
+
     <GlobalStyle />
+    <ToastContainer autoClose={3000} className="toast-container"/>
 
     </>
   );

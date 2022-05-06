@@ -94,7 +94,7 @@ export default function Form() {
     const handleSubmit = e => {
     e.preventDefault();
     if(!nomeCorrect || !cpfCorrect || !cepCorrect || !telefoneCorrect){
-      toast("Há erros no seu formulário", {});
+      toast.error("Há erros no seu formulário");
     } else{
       toast.success("Informações válidas!");
     }
